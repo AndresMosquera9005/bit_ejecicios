@@ -1,0 +1,58 @@
+/* ESTILOS PARA EL HEADER */
+
+.navegacion{
+    background-color: black;
+}
+
+#lidtaDesordenada{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex ;
+    justify-content: space-around;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* ESTILO PARA EL BODY */
+
+#fotoPerfil{
+    border: black solid 1px; 
+    border-radius: 50%;
+}
+
+h1{
+    font-size: 2 rem;
+}
+
+.parraoUno{
+    text-align: center;
+    width: 650px ;
+    font-size: 1.8 rem;
+    color: #5d5d5d;
+}
+
+.cajaRedes{
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.flex{
+    display: flex;
+}
+
+.cajaLenguajes{
+    margin-top:  70px; ;
+}
+
+.cajaLenguajesHijo{
+    padding: 0 180 px;
+}
+
+.cajaFormulario{
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
