@@ -1,110 +1,80 @@
-body{
-    background-color: rgb(178,178, 178);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin-top: 50px;
+    background-color: #f0f0f0;
+    color: #333;
 }
 
-h1{
-    margin-left: 25px !important;
+.flex {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* padding: 20px; */
+    padding: 20px;
+    min-height: 100pv;
+    border: 10px solid #0078d7;
+    margin-left: 30%;
+    margin-right: 30%;
+    
 }
 
-#img{
-    margin-top: 25px;
-    margin-left: 25px;
+img#img {
+    width: 150px;
+    margin-bottom: 20px;
 }
 
-.flex{
-    background-color: #fff;
-    /* border: 1px solid #1b1a1a; */
-    margin-left: 530px;
-    margin-right: 400px;
-    padding-bottom: 50px;
-
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
 }
 
 .formCorreo {
-    margin-left: 25px;
+    margin-bottom: 15px;
 }
 
-.form{
-    margin-left: 25px;
-}
-
-input {
-    width: 87%;
+input{
+    width: 95%;
+    padding: 10px;
     border: none;
-    border-bottom: 1px solid rgb(83, 83, 183);
-    background-color: transparent;
+    border-bottom: 1px solid #0078d7;
+    border-radius: 4px;
 }
 
-input:focus-visible{
-    outline: none;
+a {
+    color: #0078d7;
+    text-decoration: none;
 }
 
-.display{
-    /* display: flex; */
-    /* text-align: start; */
-    width: 65%;
+a:hover {
+    text-decoration: underline;
 }
 
-a{
-    /* width: 100%; */
-    margin-top: 20px;
-}
-
-.botones{
-    margin-top: 40px;
-    margin-bottom: 50px;
-    margin-left: 35%;
-}
-
-#atras{
-    background: rgb(178,178, 178);
-    padding: 5px 30px;
-    /* margin-right: 70px; */
-}
-
-#siguiente{
-    background:rgb(0,93,166);
-    color: rgb(255, 255, 255);
-    padding: 5px 30px;
-}
-
-.opInSe{
-    display: flex;
-    margin-left: 38%;
-    margin-top: 20px;
-}
-
-#opcionInicioSesion{
-    padding: 15px 115px;
-    margin-bottom: 100px;
-    margin-left: 20px; 
-    margin-right: 20px;
-    background: #fff;
-    background-image: url("image/llave.svg");
-    background-repeat: no-repeat;
-
-}
-
-.botonesFooter{
-    display: flex;
+button{
+    padding: 10px 20px;
     border: none;
-    background: transparent;
-    width: 40%;
-    margin-left: 39%;
-    padding-bottom: 100px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #0078d7;
+    color: #fff;
 }
 
-.row{
-    display: flex;    
+button :hover{
+    background-color: #0078d7;
 }
 
-#buttonTermino{
-    margin-right: 5px;
-    padding: 0 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+#opInSe{
+    padding: 10px 20pz;
+    border: none;
+
 }
 
-#privacidadCookies{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.botonesFooter {
+    margin-top: 20px;
+    text-align: center;
 }
+
+botonesFooter button {
+    margin: 5px;
+}
+

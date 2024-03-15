@@ -1,0 +1,16 @@
+:root {
+    --color-fucsia: #E8156B;
+    --color-amarillo: #FFE800;
+    --color-blanco: #fff;
+}
+
+.promocion-encabezado {
+    background-color: var(--color-fucsia);
+    display: flex;
+    justify-content: center;
+    padding: 12px 0;
+}
+
+.texto-promo {
+    color: var(--color-blanco);
+}
