@@ -19,6 +19,7 @@ body{
 
 
 #form{
+    background: #f0f2f5 !important;
     margin-left: 25px !important;
 }
 
@@ -27,6 +28,7 @@ body{
     margin-top: 100px;
     margin-left: 10px;
 }
+
 
 .distancia{
     margin-left: 300px;
@@ -49,6 +51,13 @@ body{
     padding: 10px 130px;
     border-radius: 5px;
     font-size: 20px;
+}
+
+.linea-horizontal{
+    height: 1px;
+    width: 300px;
+    background-color: #000;
+    margin: 0 15px;
 }
 
 #forgot{
