@@ -8,6 +8,10 @@
     background-color: var(--color-morado) ;
 }
 
+.row{
+    display: flex;
+}
+
 img {
     width: 200px;
     margin: 10px 0px;
@@ -15,6 +19,27 @@ img {
 
 input {
     width: 465px;
-    padding: 20px;
-    margin-top: 2px;
+    padding: 15px;
+    margin: 15px;
+    background-color: var(--color-morado);
+    border-color: var(--color-blanco);
+}
+
+.image-colombia {
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+}
+
+p {
+    color: var(--color-blanco);
+    /* margin-top: 30px; */
+    padding: 10px;
+}
+
+.barra-vertical {
+    border: 1px solid #DDD318;
+    /* width: 5px; */
+    height: 90px;
+    margin: 0px 0px;
 }
