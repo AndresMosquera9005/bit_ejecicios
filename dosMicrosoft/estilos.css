@@ -1,3 +1,7 @@
+:root {
+    --color-azul: #0078d7;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0;
@@ -12,7 +16,6 @@ body {
     flex-direction: column;
     padding: 20px;
     min-height: 100pv;
-    border: 10px solid #0078d7;
     margin-left: 30%;
     margin-right: 30%;    
 }
@@ -35,12 +38,12 @@ input{
     width: 95%;
     padding: 10px;
     border: none;
-    border-bottom: 1px solid #0078d7;
+    border-bottom: 1px solid var(--color-azul);
     border-radius: 4px;
 }
 
 a {
-    color: #0078d7;
+    color: var(--color-azul);
     text-decoration: none;
 }
 
@@ -48,8 +51,7 @@ a:hover {
     text-decoration: underline;
 }
 
-
-button{
+.botonesAtraSiguiente{
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
@@ -60,37 +62,33 @@ button{
     margin-left: 290px;
 }
 
-/* #botones:hover {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-} */
-
 #siguiente{
-    background-color: #0078d7;
+    background-color: var(--color-azul);
     color: #fff;
-
 }
 
 .opInSe{
-    border: 1px solid #0078d7;
+    border: none;
+    padding: 15px 184px;
     margin-left: 30%;
-    padding: 10px 160px;
-    width: 120px;
+    background-image: url("https://aadcdn.msauth.net/shared/1.0/content/images/signin-options_3e3f6b73c3f310c31d2c4d131a8ab8c6.svg");
+    background-repeat: no-repeat;
+    background-position: 25%;
 }
 
-#llave{
-    width: 20px;
-    height: 20px;
+.opInSe:hover {
+    cursor: pointer;
+    background-repeat: none;
 }
 
 .botonesFooter {
-    margin-top: 20px;
+    margin-top: 170px;
+    margin-left: 1000px;
     text-align: center;
 }
 
-botonesFooter button {
-    margin: 5px;
-}
 
+.buttonTerminoPrivacidadCookies{
+    border: none;
+    cursor: pointer;
+}
