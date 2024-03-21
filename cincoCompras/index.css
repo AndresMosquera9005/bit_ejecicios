@@ -2,6 +2,7 @@
     --color-borde: rgb(157, 152, 152);
     --color-eliminarCarruto: #d83636;
     --color-procederPago: #920892;
+    --color-textBlanco: #fff;
 }
 
 .header {
@@ -20,8 +21,6 @@ h1 {
 
 .linea-horizontal-total-productos {
     border: 1px solid var(--color-borde);
-    margin-bottom: 10px;
-
 }
 
 .img-producto {
@@ -31,4 +30,33 @@ h1 {
 
 .margenes{
     border: 1px solid var(--color-borde);
+    margin-bottom: 10px;
 }
+
+
+h3 {
+    font-size: 1rem;
+}
+
+.button-Pago {
+    background: var(--color-procederPago);
+    color: var(--color-textBlanco) ;
+    padding: 6px 0;
+}
+
+
+.botones-menos-mas {
+    text-align: center;
+    margin-top: 50px ;
+}
+
+
+.radio-botones {
+    border-radius: 15px;
+    text-align: center;
+}
+
+.close {
+    padding: 4px 12px 0 0!important;
+}
+
